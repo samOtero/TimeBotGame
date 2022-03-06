@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0a0e32363e0f64f959550e5cbc3bf5, type: 3}
+  m_Name: LevelLayoutsList
+  m_EditorClassIdentifier: 
+  Items:
+  - Name: 1_justbomb
+    DisplayName: Level 1
+    Layout: w,w,w,w,w,w,w|w,p,o,o,o,o,w|w,o,o,o,b_6,o,w|w,o,o,o,o,o,w|w,o,o,o,o,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  - Name: 2_simple2Bomb
+    DisplayName: Level 2
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,b_12,w|w,o,o,o,b_6,o,o,o,w|w,p,o,o,o,o,o,o,w
+    Actions: 
+    StartDirection: 0
+    UnlockRequirement: 1
+  - Name: 2_2bombs
+    DisplayName: 2_2bombs
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,p,o,o,o,w| w,o,o,w,w,w,o,o,w|w,o,o,w,w,w,o,o,w|w,o,o,w,w,w,o,o,w|w,b_9,o,o,o,o,o,b_14,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 2
+  - Name: 3_travel
+    DisplayName: 3_travel
+    Layout: w,w,w,w,w,w,w,w,w|w,p,w,o,o,o,w,w,w|w,o,w,o,w,o,w,o,b_18|w,o,w,o,w,o,w,o,w|w,o,o,o,w,o,o,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 3
+  - Name: 4_multitime
+    DisplayName: 4_multitime
+    Layout: w,w,w,w,w,w,w,w,w|w,p,o,o,o,o,o,o,w|w,w,w,w,w,w,w,o,w|w,o,o,o,o,o,o,o,w|w,o,w,w,w,w,w,w,w|w,o,o,o,o,o,o,b_7,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 4
+  - Name: 6_bombstate
+    DisplayName: 6_bombstate
+    Layout: w,w,w,w,w,w,w,w,w,w,w,w|w,p,o,o,o,o,b_5,w,w,w,w,w| w,w,w,w,w,w,o,o,o,o,o,w|w,w,w,w,w,w,o,o,o,o,o,w|w,w,w,w,w,w,o,o,o,o,b_8,w
+    Actions: 
+    StartDirection: 2
+    UnlockRequirement: 5
+  - Name: 7_bombstate2
+    DisplayName: 7_bombstate2
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,b_12,w|w,o,w,w,w,w,w,o,w|w,p,w,o,o,o,w,o,w|w,o,w,w,w,w,w,o,w|w,o,o,o,o,o,o,b_12,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 6
+  - Name: 4_avoid
+    DisplayName: 4_avoid
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,o,w|w,p,o,o,o,o,o,b_5,w|w,o,o,o,o,o,o,o,w|w,w,w,w,w,w,w,w,w
+    Actions: 
+    StartDirection: 2
+    UnlockRequirement: 7
+  - Name: 5_bombstate_avoid
+    DisplayName: 5_bombstate_avoid
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,b_10,w|w,o,o,o,o,w,w,w,w|w,p,o,o,o,o,o,b_6,w|w,o,o,o,o,o,o,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 8
+  - Name: playground
+    DisplayName: playground
+    Layout: w,w,w,w,w,w,w,w|w,o,o,o,o,o,b_99,w|w,w,w,w,d1,w,l,w|w,btn1,o,o,o,o,o,w|w,o,o,bx,o,o,o,w|w,o,o,o,o,k,o,w|w,p,o,o,o,o,btn1,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 9
+  - Name: 7_futuretest
+    DisplayName: 7_futuretest
+    Layout: w,w,w,w,w,w,w,w|w,o,o,o,o,o,b_6,w|w,o,w,w,w,w,w,w|w,o,w,o,o,o,o,w|w,o,w,o,o,o,o,w|w,o,w,o,o,o,o,w|w,p,w,o,o,o,o,w
+    Actions: '"c1",5,1,0,1,5,0| "c1",5,2,2,1,5,1'
+    StartDirection: 0
+    UnlockRequirement: 0
+  - Name: challenge_1
+    DisplayName: challenge_1
+    Layout: w,w,w,w,w,w,w|w,p,o,o,o,o,w|w,o,o,o,o,o,w|w,o,o,o,o,o,w|w,o,o,o,o,o,w|w,o,o,o,b_2,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  - Name: button_1
+    DisplayName: button_1
+    Layout: w,w,w,w,w,w,w|w,o,o,b_10,o,o,w|w,w,w,w,w,w,w|w,p,o,o,o,o,w|w,o,o,o,o,btn1,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  - Name: button_2
+    DisplayName: button_2
+    Layout: w,w,w,w,w,w,w,w,w|w,p,o,o,o,o,w,b_30,w|w,o,o,bx,o,o,w,w,w|w,o,o,o,o,o,o,o,w|w,o,o,o,o,o,o,o,w|w,o,o,btn1,o,o,o,btn1,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  - Name: button_3_door
+    DisplayName: button_3_door
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,b_50,w|w,w,w,w,d1,w,w,w,w|w,btn1,o,o,o,o,bx,o,w|w,o,o,o,o,o,o,o,w|w,o,o,o,p,o,o,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  - Name: Key_1
+    DisplayName: Key_1
+    Layout: w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,b_30,w|w,w,w,w,d1,w,w,w,w|w,o,k,o,o,o,o,o,w|w,o,o,o,o,o,o,o,w|w,o,o,o,p,o,o,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  - Name: Key_Challenge
+    DisplayName: Key_Challenge
+    Layout: w,w,w,w,w,w,w,w,w,w|w,o,o,o,o,o,o,o,b_99,w|w,w,w,w,d1,w,w,w,w,w|w,o,o,o,o,o,o,o,o,w|w,w,w,w,w,w,w,d1,w,w|w,k,o,o,o,o,o,o,o,w|w,o,o,o,o,o,o,o,o,w|w,p,o,o,o,o,o,o,o,w
+    Actions: 
+    StartDirection: 1
+    UnlockRequirement: 0
+  currentVersion: 18
+  List: 1_justbomb,2_simple2Bomb,2_2bombs,3_travel,4_multitime,6_bombstate,7_bombstate2,4_avoid,5_bombstate_avoid,playground,7_futuretest,challenge_1,button_1,button_2,button_3_door,Key_1,Key_Challenge

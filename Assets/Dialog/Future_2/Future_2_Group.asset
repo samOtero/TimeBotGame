@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37cbc9dc90c10cc4f8fa577891d45dcb, type: 3}
+  m_Name: Future_2_Group
+  m_EditorClassIdentifier: 
+  Items:
+  - {fileID: 11400000, guid: ab9722c0f3fea6e4fa09ab12a61ae1e9, type: 2}
+  - {fileID: 11400000, guid: a1b5d6cc65e44ce459dd9c0eb1133639, type: 2}
+  levelName: future_door
+  index: 0
+  TriggerOnSpecificSpot: 0
+  row: 0
+  col: 0
+  playAfterNoMovement: 0
+  noMovementTime: 0
+  TriggerOnSpecificTime: 1
+  time: 1
